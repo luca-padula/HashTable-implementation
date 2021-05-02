@@ -1,14 +1,3 @@
-/*************************************************************/
-/*                                                           */
-/*    starter file for a2                                    */
-/*    						                                 */
-/*    Contributions:										 */
-/*                                                           */
-/*    Luca Padula - 50%                                      */
-/*    Harshit Arora - 50%                                    */
-/*                                                           */
-/*************************************************************/
-
 #include <string>
 #include <utility>
 using namespace std;

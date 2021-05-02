@@ -3,6 +3,18 @@
 using namespace std;
 
 template <class TYPE>
+class Table {
+public:
+	Table() {}
+	virtual void update(const string& key, const TYPE& value) = 0;
+	virtual bool remove(const string& key) = 0;
+	virtual bool find(const string& key, TYPE& value) = 0;
+	virtual int numRecords() const = 0;
+	virtual bool isEmpty() const = 0;
+	virtual ~Table() {}
+};
+
+template <class TYPE>
 class LPTable :public Table<TYPE> {
 	struct Record
 	{
